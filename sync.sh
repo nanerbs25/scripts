@@ -4,6 +4,7 @@
 rm -rf frameworks/base/
 rm -rf device/lge/
 rm -rf hardware/lge
+rm -rf kernel/lge/msm8996/
 rm -rf vendor/lge/
 rm -rf vendor/lineage/
 rm out/target/product/*/*.zip
