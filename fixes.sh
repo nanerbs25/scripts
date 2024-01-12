@@ -15,7 +15,7 @@ cd ../../../
 # remove timekeep
 cd device/lge/msm8996-common
 git fetch https://github.com/xc112lg/android_device_lge_msm8996-common.git patch-1
-git cherry-pick 060a0a00e2954ac27b04e217390a78133c4484dc
+#git cherry-pick 060a0a00e2954ac27b04e217390a78133c4484dc
 # added crdroid setting
 git cherry-pick 91230d98a47749392577bc336a4cfba972d72ef5
 cd ../../../
