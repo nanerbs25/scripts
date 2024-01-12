@@ -18,6 +18,11 @@ git fetch https://github.com/xc112lg/android_device_lge_msm8996-common.git patch
 git cherry-pick 060a0a00e2954ac27b04e217390a78133c4484dc
 cd ../../../
 
+# added crdroid setting
+cd device/lge/msm8996-common
+git cherry-pick 91230d98a47749392577bc336a4cfba972d72ef5
+cd ../../../
+
 
 
 
