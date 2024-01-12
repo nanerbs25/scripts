@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Cam fix for LG G6
+# Cam fix for LG G6 and delete some line cause im stupid
 cd frameworks/base/
 git fetch https://github.com/xc112lg/android_frameworks_base-1.git cr9
-git cherry-pick 47d7418b2c1d11ce03f5ea99582ae77908be9ac7
+git cherry-pick 47d7418b2c1d11ce03f5ea99582ae77908be9ac7 bd97919685b48ee2ae32f9f6e5c34fe87f6010a7
 cd ../../
 
 # Mixer: adjust input volume levels
