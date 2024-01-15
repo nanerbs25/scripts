@@ -13,6 +13,9 @@ repopick -p 368174
 repopick -p 375037
 
 # frameworks/base
+cd frameworks/base
+git reset --hard ed5d879dd482d1a9b769d49df4ef0ab33080d30f
+cd ../../
 repopick -p -f 376441
 repopick 371338-371340 371336 # nvidia stuff
 
@@ -36,7 +39,7 @@ repopick -p 376991
 repopick -p 372631
 
 # packages/apps/Trebuchet
-repopick -p 368923
+repopick 368923
 
 # packages/apps/TvSettings
 repopick -p 368593
@@ -75,7 +78,7 @@ repopick -p 369205
 repopick -p 368744
 
 # system/sepolicy
-repopick -p 375640
+repopick -p 375191
 
 # system/update_engine
 repopick -p 368759
